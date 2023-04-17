@@ -1,4 +1,6 @@
 #include <stdio.h>
 int main(){
-	printf(" have seen the code");
+	printf(" have seen the code\n");
+	printf("yeah!");
+	
 }
