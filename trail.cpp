@@ -8,10 +8,10 @@ float f (float x);
 int f_disp (int i, float a, float b, float c);
 
 int main(void){
- float a =1 ; /* left point */
- float b = 0; /* right point */
+ float a =0 ; /* left point */
+ float b = 1; /* right point */
  float TOL = 1E-2; /* tolerance */
- float NMAX = 9; /* maximum number of iterations */
+ float NMAX = 15; /* maximum number of iterations */
  float c = 0; /* estimated root */
  int i = 0; /* index */
  
