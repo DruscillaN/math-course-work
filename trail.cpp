@@ -47,7 +47,7 @@ int main(void){
 /* function definition */
 float f (float x){
  float y;
- y = 10 - x*x;
+ y = sqrt(x)-cos(x);
  return y;}
 
 /* display function definition */
